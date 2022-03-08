@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Ubuntu&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-width: 800px;
+  max-width: 100%;
+  font-family: "Merriweather";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+}
+
+.constrain {
+  max-width: 850px;
+  margin: 100px auto 25px;
+}
+
+.large-image {
+  width: 60%;
+  height: auto;
+}
+
+.section-1 {
+  margin: 35px 0 0;
+  display: flex;
+  border-top: 1px solid lightgrey;
+  padding: 20px 0;
+}
+
+.text-box {
+  margin-top: 30px;
+  margin-left: 45px;
+}
+
+.section-2 {
+  display: flex;
+  gap: 30px;
+}
+
+.small-image {
+  max-width: 100%;
+  align-items: center;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+h5,
+p,
+.name-date {
+  font-family: "Merriweather";
+}
+
+h5 {
+  margin: 10px 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: auto 5px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.name-date {
+  display: flex;
+}
